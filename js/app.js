@@ -4215,7 +4215,6 @@
             const pageSlideContent = pageSlide.querySelector(".screen__content");
             if (pageSlideContent) {
                 const pageContentHeight = pageSlideContent.offsetHeight + 110;
-                console.log(pageSlideContent.offsetHeight);
                 if (pageContentHeight > window.innerHeight) {
                     wrapper.classList.add("_free");
                     pageSlider.params.freeMode.enabled = true;
